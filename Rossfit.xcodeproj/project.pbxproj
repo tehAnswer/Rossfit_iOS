@@ -22,6 +22,20 @@
 		490EF74219AFE69600B0604A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490EF72119AFE69600B0604A /* UIKit.framework */; };
 		490EF74A19AFE69600B0604A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 490EF74819AFE69600B0604A /* InfoPlist.strings */; };
 		490EF74C19AFE69600B0604A /* RossfitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490EF74B19AFE69600B0604A /* RossfitTests.m */; };
+		4994056619AFE88C00FC3125 /* Diet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994055B19AFE88C00FC3125 /* Diet.m */; };
+		4994056719AFE88C00FC3125 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994055D19AFE88C00FC3125 /* Item.m */; };
+		4994056819AFE88C00FC3125 /* ItemMeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994055F19AFE88C00FC3125 /* ItemMeal.m */; };
+		4994056919AFE88C00FC3125 /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994056119AFE88C00FC3125 /* Meal.m */; };
+		4994056A19AFE88C00FC3125 /* Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994056319AFE88C00FC3125 /* Measure.m */; };
+		4994056B19AFE88C00FC3125 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994056519AFE88C00FC3125 /* User.m */; };
+		4994056E19AFE89800FC3125 /* Requester.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994056D19AFE89800FC3125 /* Requester.m */; };
+		4994057019AFEC6600FC3125 /* weight-lifting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4994056F19AFEC6600FC3125 /* weight-lifting.jpg */; };
+		4994057219AFEE5800FC3125 /* 01-fitness-motivation-girls-doing-squats-jen-selter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4994057119AFEE5800FC3125 /* 01-fitness-motivation-girls-doing-squats-jen-selter.jpg */; };
+		4994057619AFF23A00FC3125 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994057519AFF23A00FC3125 /* LoginViewController.m */; };
+		4994057819AFFAEB00FC3125 /* gym.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4994057719AFFAEB00FC3125 /* gym.jpg */; };
+		4994057B19AFFB6500FC3125 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994057A19AFFB6500FC3125 /* RegisterViewController.m */; };
+		4994057E19B0043100FC3125 /* DismissViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994057D19B0043100FC3125 /* DismissViewController.m */; };
+		61ECD63F468745D792F5876D /* libPods-Rossfit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD1BF2FA42E4CE2B6648DDF /* libPods-Rossfit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B7D30751468431099C54C34 /* Pods-Rossfit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rossfit.xcconfig"; path = "Pods/Pods-Rossfit.xcconfig"; sourceTree = "<group>"; };
 		490EF71A19AFE69600B0604A /* Rossfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rossfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		490EF71D19AFE69600B0604A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		490EF71F19AFE69600B0604A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +71,30 @@
 		490EF74719AFE69600B0604A /* RossfitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RossfitTests-Info.plist"; sourceTree = "<group>"; };
 		490EF74919AFE69600B0604A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		490EF74B19AFE69600B0604A /* RossfitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RossfitTests.m; sourceTree = "<group>"; };
+		4994055A19AFE88C00FC3125 /* Diet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diet.h; sourceTree = "<group>"; };
+		4994055B19AFE88C00FC3125 /* Diet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Diet.m; sourceTree = "<group>"; };
+		4994055C19AFE88C00FC3125 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		4994055D19AFE88C00FC3125 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		4994055E19AFE88C00FC3125 /* ItemMeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemMeal.h; sourceTree = "<group>"; };
+		4994055F19AFE88C00FC3125 /* ItemMeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemMeal.m; sourceTree = "<group>"; };
+		4994056019AFE88C00FC3125 /* Meal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
+		4994056119AFE88C00FC3125 /* Meal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
+		4994056219AFE88C00FC3125 /* Measure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measure.h; sourceTree = "<group>"; };
+		4994056319AFE88C00FC3125 /* Measure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Measure.m; sourceTree = "<group>"; };
+		4994056419AFE88C00FC3125 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		4994056519AFE88C00FC3125 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		4994056C19AFE89800FC3125 /* Requester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Requester.h; sourceTree = "<group>"; };
+		4994056D19AFE89800FC3125 /* Requester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Requester.m; sourceTree = "<group>"; };
+		4994056F19AFEC6600FC3125 /* weight-lifting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "weight-lifting.jpg"; sourceTree = "<group>"; };
+		4994057119AFEE5800FC3125 /* 01-fitness-motivation-girls-doing-squats-jen-selter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01-fitness-motivation-girls-doing-squats-jen-selter.jpg"; sourceTree = "<group>"; };
+		4994057419AFF23A00FC3125 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4994057519AFF23A00FC3125 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		4994057719AFFAEB00FC3125 /* gym.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gym.jpg; sourceTree = "<group>"; };
+		4994057919AFFB6500FC3125 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		4994057A19AFFB6500FC3125 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		4994057C19B0043100FC3125 /* DismissViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissViewController.h; sourceTree = "<group>"; };
+		4994057D19B0043100FC3125 /* DismissViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissViewController.m; sourceTree = "<group>"; };
+		CAD1BF2FA42E4CE2B6648DDF /* libPods-Rossfit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rossfit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +105,7 @@
 				490EF72019AFE69600B0604A /* CoreGraphics.framework in Frameworks */,
 				490EF72219AFE69600B0604A /* UIKit.framework in Frameworks */,
 				490EF71E19AFE69600B0604A /* Foundation.framework in Frameworks */,
+				61ECD63F468745D792F5876D /* libPods-Rossfit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +129,7 @@
 				490EF74519AFE69600B0604A /* RossfitTests */,
 				490EF71C19AFE69600B0604A /* Frameworks */,
 				490EF71B19AFE69600B0604A /* Products */,
+				2B7D30751468431099C54C34 /* Pods-Rossfit.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +149,7 @@
 				490EF71F19AFE69600B0604A /* CoreGraphics.framework */,
 				490EF72119AFE69600B0604A /* UIKit.framework */,
 				490EF73F19AFE69600B0604A /* XCTest.framework */,
+				CAD1BF2FA42E4CE2B6648DDF /* libPods-Rossfit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,13 +157,12 @@
 		490EF72319AFE69600B0604A /* Rossfit */ = {
 			isa = PBXGroup;
 			children = (
+				4994057319AFF21B00FC3125 /* controller */,
+				4994055919AFE86E00FC3125 /* model */,
+				4994055819AFE86500FC3125 /* API */,
 				490EF72C19AFE69600B0604A /* AppDelegate.h */,
 				490EF72D19AFE69600B0604A /* AppDelegate.m */,
 				490EF72F19AFE69600B0604A /* Main.storyboard */,
-				490EF73219AFE69600B0604A /* FirstViewController.h */,
-				490EF73319AFE69600B0604A /* FirstViewController.m */,
-				490EF73519AFE69600B0604A /* SecondViewController.h */,
-				490EF73619AFE69600B0604A /* SecondViewController.m */,
 				490EF73819AFE69600B0604A /* Images.xcassets */,
 				490EF72419AFE69600B0604A /* Supporting Files */,
 			);
@@ -131,6 +172,9 @@
 		490EF72419AFE69600B0604A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4994057719AFFAEB00FC3125 /* gym.jpg */,
+				4994057119AFEE5800FC3125 /* 01-fitness-motivation-girls-doing-squats-jen-selter.jpg */,
+				4994056F19AFEC6600FC3125 /* weight-lifting.jpg */,
 				490EF72519AFE69600B0604A /* Rossfit-Info.plist */,
 				490EF72619AFE69600B0604A /* InfoPlist.strings */,
 				490EF72919AFE69600B0604A /* main.m */,
@@ -157,6 +201,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4994055819AFE86500FC3125 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4994056C19AFE89800FC3125 /* Requester.h */,
+				4994056D19AFE89800FC3125 /* Requester.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		4994055919AFE86E00FC3125 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4994055A19AFE88C00FC3125 /* Diet.h */,
+				4994055B19AFE88C00FC3125 /* Diet.m */,
+				4994055C19AFE88C00FC3125 /* Item.h */,
+				4994055D19AFE88C00FC3125 /* Item.m */,
+				4994055E19AFE88C00FC3125 /* ItemMeal.h */,
+				4994055F19AFE88C00FC3125 /* ItemMeal.m */,
+				4994056019AFE88C00FC3125 /* Meal.h */,
+				4994056119AFE88C00FC3125 /* Meal.m */,
+				4994056219AFE88C00FC3125 /* Measure.h */,
+				4994056319AFE88C00FC3125 /* Measure.m */,
+				4994056419AFE88C00FC3125 /* User.h */,
+				4994056519AFE88C00FC3125 /* User.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		4994057319AFF21B00FC3125 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				490EF73219AFE69600B0604A /* FirstViewController.h */,
+				490EF73319AFE69600B0604A /* FirstViewController.m */,
+				490EF73519AFE69600B0604A /* SecondViewController.h */,
+				490EF73619AFE69600B0604A /* SecondViewController.m */,
+				4994057419AFF23A00FC3125 /* LoginViewController.h */,
+				4994057519AFF23A00FC3125 /* LoginViewController.m */,
+				4994057919AFFB6500FC3125 /* RegisterViewController.h */,
+				4994057A19AFFB6500FC3125 /* RegisterViewController.m */,
+				4994057C19B0043100FC3125 /* DismissViewController.h */,
+				4994057D19B0043100FC3125 /* DismissViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 490EF74F19AFE69600B0604A /* Build configuration list for PBXNativeTarget "Rossfit" */;
 			buildPhases = (
+				08994C4D2E5C4F04A38D86CB /* Check Pods Manifest.lock */,
 				490EF71619AFE69500B0604A /* Sources */,
 				490EF71719AFE69500B0604A /* Frameworks */,
 				490EF71819AFE69500B0604A /* Resources */,
+				DA8C70EFF2964971848BC2F4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +327,9 @@
 				490EF73919AFE69600B0604A /* Images.xcassets in Resources */,
 				490EF72819AFE69600B0604A /* InfoPlist.strings in Resources */,
 				490EF73119AFE69600B0604A /* Main.storyboard in Resources */,
+				4994057819AFFAEB00FC3125 /* gym.jpg in Resources */,
+				4994057219AFEE5800FC3125 /* 01-fitness-motivation-girls-doing-squats-jen-selter.jpg in Resources */,
+				4994057019AFEC6600FC3125 /* weight-lifting.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,15 +343,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08994C4D2E5C4F04A38D86CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA8C70EFF2964971848BC2F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Rossfit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		490EF71619AFE69500B0604A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4994056B19AFE88C00FC3125 /* User.m in Sources */,
+				4994056919AFE88C00FC3125 /* Meal.m in Sources */,
+				4994056819AFE88C00FC3125 /* ItemMeal.m in Sources */,
+				4994056719AFE88C00FC3125 /* Item.m in Sources */,
+				4994056619AFE88C00FC3125 /* Diet.m in Sources */,
 				490EF73719AFE69600B0604A /* SecondViewController.m in Sources */,
 				490EF72E19AFE69600B0604A /* AppDelegate.m in Sources */,
 				490EF73419AFE69600B0604A /* FirstViewController.m in Sources */,
+				4994057619AFF23A00FC3125 /* LoginViewController.m in Sources */,
+				4994057E19B0043100FC3125 /* DismissViewController.m in Sources */,
+				4994057B19AFFB6500FC3125 /* RegisterViewController.m in Sources */,
+				4994056A19AFE88C00FC3125 /* Measure.m in Sources */,
 				490EF72A19AFE69600B0604A /* main.m in Sources */,
+				4994056E19AFE89800FC3125 /* Requester.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +516,7 @@
 		};
 		490EF75019AFE69600B0604A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7D30751468431099C54C34 /* Pods-Rossfit.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -392,6 +530,7 @@
 		};
 		490EF75119AFE69600B0604A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7D30751468431099C54C34 /* Pods-Rossfit.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -462,6 +601,7 @@
 				490EF75119AFE69600B0604A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		490EF75219AFE69600B0604A /* Build configuration list for PBXNativeTarget "RossfitTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +610,7 @@
 				490EF75419AFE69600B0604A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
